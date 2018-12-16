@@ -5,12 +5,14 @@
 Without docker, edit your `.env` file then run:
 ```
 npm install
+
 npm start
 ```
 
 With docker, run:
 ```
 docker build -t ScrappyBot .
+
 docker run \
 -e "BOT_TOKEN=[the bot's token]" \
 -e "BOT_PREFIX=>[the bot's prefix]" \
